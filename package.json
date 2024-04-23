@@ -1,0 +1,14 @@
+{
+  "name": "2024-04-23_env-deploy",
+  "version": "1.0.0",
+  "description": "- What are environment variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node index.js",
+    "dev-start": "node --watch --env-file=.env index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
